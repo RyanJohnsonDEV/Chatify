@@ -1,6 +1,6 @@
 # Chatify
 
-Chatify is a chat application built with React and Firebase, allowing users to create accounts, add friends, and engage in real-time messaging and image sharing. The app is currently hosted at [https://mychatify.netlify.app/](https://mychatify.netlify.app/).
+Chatify is a chat application built with React and Firebase, allowing users to create accounts, add users, and engage in real-time messaging and image sharing. The app is currently hosted at [https://mychatify.netlify.app/](https://mychatify.netlify.app/).
 
 ## Features
 
