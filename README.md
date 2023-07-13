@@ -2,6 +2,8 @@
 
 Chatify is a chat application built with React and Firebase, allowing users to create accounts, add users, and engage in real-time messaging and image sharing. The app is currently hosted at [https://mychatify.netlify.app/](https://mychatify.netlify.app/).
 
+#### If you need a guest user to sign in: Email: John@gmail.com, Password: 123456
+
 ## Features
 
 - **User Authentication:** Create an account and securely log in to Chatify using Firebase authentication.
