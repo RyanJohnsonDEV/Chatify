@@ -1,0 +1,6 @@
+.sidebar {
+  flex: 1;
+  background-color: var(--color-dark);
+  overflow: hidden;
+  height: 100%;
+}

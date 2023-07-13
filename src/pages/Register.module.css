@@ -1,0 +1,39 @@
+.gray {
+  color: silver;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.file-upload {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+input {
+  color: white;
+}
+
+.uploader {
+  display: none;
+}
+
+.custom-file-uploader {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.file-upload img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  align-self: center;
+  object-fit: cover;
+}
+
+.account-link {
+  margin-top: 1rem;
+}

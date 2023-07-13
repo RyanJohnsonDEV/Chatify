@@ -1,0 +1,33 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  background-color: var(--color-lightest);
+}
+
+.chat-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.47rem;
+  background-color: var(--color-darkest);
+}
+
+.user-actions button {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+.user-actions button:hover {
+  color: var(--color-light);
+}
+
+.username {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.user-actions {
+  display: flex;
+  gap: 1rem;
+}

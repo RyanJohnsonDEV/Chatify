@@ -1,0 +1,55 @@
+.chats {
+  overflow-y: auto;
+  height: calc(100% - 8rem);
+}
+
+.user-chat-container {
+  /* border-top: 1px solid var(--color-lightest); */
+  border-bottom: 1px solid var(--color-mid-light);
+}
+
+.user-chat {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  gap: 1rem;
+  font-weight: bold;
+  font-size: calc(20px + (1vw / 4));
+}
+
+.user-chat:hover {
+  background-color: var(--color-darker);
+  cursor: pointer;
+}
+
+.user-chat img {
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+}
+
+.user-chat-info > * {
+  margin: 0;
+}
+
+.user-chat-info {
+  max-width: 20vw;
+  min-width: 250px;
+}
+
+.userImage {
+  object-fit: cover;
+}
+
+.user-chat-info p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.lastMessage {
+  font-style: italic;
+  color: var(--color-light);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

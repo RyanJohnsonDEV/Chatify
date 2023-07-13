@@ -1,0 +1,73 @@
+.panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #dde6ed;
+}
+
+.panel-container {
+  background-color: #27374d;
+  border-radius: 30px;
+  max-width: 400px;
+  width: 70%;
+  max-height: 85vh;
+  text-align: center;
+  padding: 3rem;
+  animation: open 0.5s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.panel-container input[type='text'],
+.panel-container input[type='password'],
+.panel-container input[type='email'] {
+  background-color: transparent;
+  font-size: 18px;
+  padding: 0.75rem 0;
+  border: 0;
+  width: 100%;
+  border-bottom: 1px solid white;
+  margin: 0.5rem 0;
+}
+
+.panel input[type='text']:active,
+.panel input[type='text']:focus {
+  outline: none;
+}
+
+.panel button {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 1rem;
+  width: 100%;
+  margin-top: 3rem;
+  border-radius: 30px;
+  border: 0;
+  background-color: var(--color-darkest);
+  transition: 0.3s;
+}
+
+.panel button:hover {
+  background-color: #001027;
+  cursor: pointer;
+}
+
+@keyframes open {
+  0% {
+    transform: translateY(-15%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-0%);
+    opacity: 100%;
+  }
+}

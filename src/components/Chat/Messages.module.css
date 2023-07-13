@@ -1,0 +1,17 @@
+.messages-container {
+  flex: 1 1 auto;
+  overflow: auto;
+  padding-bottom: 4rem;
+}
+
+.logo {
+  word-wrap: unset;
+}
+
+.messages {
+  padding: 1rem 1rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

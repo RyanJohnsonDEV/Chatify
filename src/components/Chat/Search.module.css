@@ -1,0 +1,54 @@
+.search-input {
+  width: calc(100% - 2rem);
+  background-color: var(--color-mid-light);
+  padding: 1rem;
+  font-size: 18px;
+  border: none;
+  color: var(--color-darkest);
+}
+
+.search-input::placeholder {
+  color: var(--color-mid-dark);
+}
+
+.search-input:focus,
+.search-input:active {
+  outline: none;
+}
+
+.search-user {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--color-mid-light);
+  gap: 1rem;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.search-user:hover {
+  background-color: var(--color-darker);
+  cursor: pointer;
+}
+
+.search-user img {
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+}
+
+.search-user-info > * {
+  margin: 0;
+}
+
+.search-user-info p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.not-found {
+  background-color: var(--color-mid-light);
+  color: rgb(255, 102, 102);
+  padding: 1rem;
+  font-weight: bold;
+}
